@@ -21,11 +21,12 @@ dependencies:
     - jupyter-sshd-proxy
     - jupyterlab-bxplorer
     - git+https://github.com/MAAP-Project/algorithms-jupyter-extension.git@feature/major-refactor
+    - git+https://github.com/MAAP-Project/jupyter-server-extension.git@feature/major-refactor
 variables:
   TITILER_STAC_ENDPOINT: 'https://openveda.cloud/api/stac'
   TITILER_ENDPOINT: 'https://openveda.cloud/api/raster'
   STAC_CATALOG_NAME: 'VEDA STAC'
   STAC_CATALOG_URL: 'https://openveda.cloud/api/stac'
   STAC_BROWSER_URL: 'https://openveda.cloud/'
-  MAAP_API: 'https://api.uat.maap-project.org/api/'
+  MAAP_API_URL: 'https://api.uat.maap-project.org/api/'
   MAAP_PROFILE_URL: 'https://maap-project.org/profile/'
