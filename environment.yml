@@ -22,6 +22,7 @@ dependencies:
     - jupyterlab-bxplorer
     - git+https://github.com/MAAP-Project/algorithms-jupyter-extension.git@feature/major-refactor
     - git+https://github.com/MAAP-Project/jupyter-server-extension.git@feature/major-refactor
+    - git+https://github.com/MAAP-Project/maap-py.git@add-ogc-endpoints
 variables:
   TITILER_STAC_ENDPOINT: 'https://openveda.cloud/api/stac'
   TITILER_ENDPOINT: 'https://openveda.cloud/api/raster'
