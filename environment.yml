@@ -29,5 +29,5 @@ variables:
   STAC_CATALOG_NAME: 'VEDA STAC'
   STAC_CATALOG_URL: 'https://openveda.cloud/api/stac'
   STAC_BROWSER_URL: 'https://openveda.cloud/'
-  # MAAP_API_URL: 'https://api.uat.maap-project.org/'
+  MAAP_API_URL: 'https://api.uat.maap-project.org/'
   MAAP_PROFILE_URL: 'https://uat.maap-project.org/profile/'
